@@ -32,6 +32,10 @@
             End Try
             myconnect.Close()
         End If
+        comidapreparada.Text = ""
+        fechaingreso.Text = ""
+        profesoracargo.Text = ""
+        horariocomida.Text = ""
     End Sub
 
     Private Sub comida_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load

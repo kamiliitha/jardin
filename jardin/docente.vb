@@ -29,6 +29,9 @@
             End Try
             myconnect.Close()
         End If
+        rut.Text = ""
+        nombre.Text = ""
+        apellido.Text = ""
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
